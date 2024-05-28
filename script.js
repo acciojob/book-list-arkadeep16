@@ -22,7 +22,7 @@ addBtn.addEventListener("click", (event)=>{
 	tBody.append(tr);
 	let deleteBtn = document.createElement("button");
 	deleteBtn.innerText ="X";
-	deleteBtn.classList.add= "delete";
+	deleteBtn.classList.add("delete");
 	deleteBtn.style.backgroundColor = "red";
 	deleteBtn.style.color = "white";
 	
