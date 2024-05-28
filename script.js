@@ -17,7 +17,7 @@ addBtn.addEventListener("click", (event)=>{
 				<td>${titleVal}</td>
 				<td>${authorVal}</td>
 				<td>${isbnVal}</td>
-				<td></td>
+
 				</tr>`
 	tBody.append(tr);
 	let deleteBtn = document.createElement("button");
